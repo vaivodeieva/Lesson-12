@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+    color: royalblue;
+   display: flex;
+   justify-content: center;
+
+}
+
+.formula {
+   color: green;
+   font-style: italic;
+   display: flex;
+   justify-content: center;
+}
+
+img {
+    height: 300px;
+}
+
+h5 {
+    text-align: center;
+}
+
+#quotation {
+    font-size: 25px;
+    list-style: none;
+}
+
+.name-surname {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+
+.violet {
+    color: #ba26d1;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+span {
+    color: royalblue;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+

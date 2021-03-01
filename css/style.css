@@ -1,0 +1,90 @@
+.containing-all {
+    display: flex;
+    width: 700px;
+    margin: auto;
+    flex-flow: wrap row;
+}
+
+.row-1, .row-2, .row-3, .row-4 {
+    display: flex;
+}
+
+
+.item-1, .item-2, .item-3 {
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 5px;
+    background-color:#ebf3f5;
+    border-radius: 5px;
+}
+
+.item-4, .item-5, .item-6 {
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 5px;
+    background-color:#ebf3f5;
+    border-radius: 5px;
+}
+
+.item-4 {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.item-5 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.item-6 {
+    flex-grow:1;
+    flex-basis: 0;
+}
+
+
+
+.item-7, .item-8 {
+
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 5px;
+    background-color:#ebf3f5;
+    border-radius: 5px;
+}
+
+
+.item-7 {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.item-8 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+
+.item-9, .item-10 {
+   
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 5px;
+    background-color:#ebf3f5;
+    border-radius: 5px;
+}
+
+.item-9 {
+    flex-grow: 3;
+    flex-basis: 0;
+}
+
+.item-10 {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+
+
+
+
