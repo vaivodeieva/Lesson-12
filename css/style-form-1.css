@@ -1,0 +1,85 @@
+body {
+    background-color: #f5fcfb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    margin-top: 200px;
+    height: 100px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #143478;
+    font-size: 25px;
+}
+
+.email-input, .password-input {
+    display: flex;
+    justify-content: center;
+}
+
+.email-lenght {
+    border: 1px solid lightslategrey;
+    border-radius: 3px;
+    min-width: 250px;
+    line-height: 30px;
+}
+
+.email-lenght:focus {
+    border: solid 3px royalblue;
+    outline: 3px solid transparent;
+    border-radius: 5px;
+}
+
+.password-lenght {
+    border: 1px solid lightslategrey;
+    border-radius: 3px;
+    border-top: none;
+    min-width: 250px;
+    line-height: 30px;
+}
+
+.password-lenght:focus {
+    border: solid 3px royalblue;
+    outline: 3px solid transparent;
+    border-radius: 5px;
+}
+
+.password-input {
+    border-top: 0px;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 14px;
+    color: #333;
+    padding: 3px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: royalblue;
+    min-width: 200px;
+    color: #fff;
+    border: #999;
+    border-radius: 4px;
+    min-width: 260px;
+    padding: 8px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 14px;
+    margin-top: 25px;
+}
