@@ -1,0 +1,84 @@
+body {
+  
+    background-image: url("../images/codeCamp.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+
+  .page-title {
+      display: flex;
+      justify-content: center;
+      padding-bottom: none;
+     
+  }
+
+  .small-title {
+    display: flex;
+    justify-content: center;
+    padding-top: none;
+  }
+
+  .blue-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 900px;
+    width: 600px;
+    background-color: rgba(80, 100, 250, 0.7);
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .under {
+    min-width: 500px;
+    border: 1px solid #b3b4b5;
+    border-radius: 3px;  
+  }
+
+  .up {
+    height: 39px;
+  }
+
+  .smaller-font-span {
+    font-size: 13px;
+  }
+
+  #current-role {
+    width: 507px;
+    height: 21px;
+  }
+
+  .no-border{
+    border: none;
+  }
+
+  .favorite-feature {
+    width: 507px;
+
+  }
+
+  .additional-margin {
+    margin-top: 15px;
+  }
+
+  .textarea {
+    width: 507px;
+  }
+
+  .green-button {
+    min-width: 525px;
+    margin-top: 16px;
+    padding: 9px;
+    background-color: lightseagreen;
+    color: white;
+    border-color: lightslategray;
+    border-style: hidden;
+  }
