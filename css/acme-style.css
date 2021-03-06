@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: none;
+}
+
+.header-container {
+    display: flex;
+    background-size: cover;
+    min-width: 900px;
+    height: 400px;
+    background: url(../images/code.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-paragraph {
+    max-width: 800px;
+    text-align: center;
+}
+
+.read-more-btn {
+    padding: 15px;
+    min-width: 120px;
+    margin-top: 7px;
+    background-color: steelblue;
+    color: white;
+    border: 1px solid lightgray;
+}
+
+.white-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    color: #333; 
+}
+
+
+#column-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 700px;
+    text-align: center;
+  
+}
+    .content-column {
+    padding: auto 10px;
+    margin: auto 5px;
+
+}
+
+.white-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    color: #333; 
+    height: 200px;
+    margin-top:none;
+}
+
+.d-n-paragraph {
+    max-width: 800px;
+    text-align: center;
+}
+
+.dark-container {
+    background-color: #36353b;
+    min-width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wrapper-of-three-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.picture-text {
+    display: flex;
+    justify-content: flex-start;
+     /* so steht das bild oben im container- dank justify-content: flex-start;  */
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    height: 450px;
+    width: 250px;
+    background-color: ghostwhite;
+    text-align: center;
+    margin: 12px;
+}
+
+.picture-1 {
+    background: url(../images/web\ development.jpeg);
+    height: 166px;
+    width: 250px;
+    margin-top: none;
+}
+
+.picture-2 {
+    background: url(../images/mobile\ applications.jpg);
+    height: 166px;
+    width: 250px;
+}
+
+.picture-3 {
+    background: url(../images/tech\ marketing.jpg);
+    height: 166px;
+    width: 250px;
+}
+
+.picture-1, .picture-2, .picture-3 {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.text-1, .text-2, .text-3 {
+    padding: 28px;
+}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+  }
+
+  .blue-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: steelblue;
+      color: ghostwhite;
+      padding: 20px;
+      text-align: center;
+      height: 200px;
+  }
+
+  .grey-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #36353b;
+      color: ghostwhite;
+      padding: 20px;
+      text-align: center;
+      height: 200px;
+  }
+
+  .footer-wrapper {
+      margin-bottom: none;
+  }
